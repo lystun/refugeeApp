@@ -74,6 +74,9 @@
 
         <main class="py-4">
             @yield('content')
+
+            <router-view></router-view>
+            
         </main>
     </div>
 </body>
